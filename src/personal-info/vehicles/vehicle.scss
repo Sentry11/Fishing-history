@@ -1,0 +1,39 @@
+
+.content-vehicle {
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .cards-vehicle {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .about-description-vehicle {
+      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.about-description-vehicle >h1 {
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+}
+
+@media (max-width: 1300px){
+  .cards-vehicle{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .about-description-vehicle >h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+}
