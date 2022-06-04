@@ -1,6 +1,6 @@
 import { Component } from "react";
-import videoback from './../image/videoback.mp4'
 import "./preview.scss"
+import backvideo from './../image/backvideo.mp4'
 
 const Video = (props) => {
   return (
@@ -11,28 +11,25 @@ const Video = (props) => {
 } 
 
 
-
 class Preview extends Component {
-
+  // http://thenewcode.com/assets/videos/fashion.mp4
   constructor(props){
     super(props);
     this.state ={
-      videoUrl: videoback,
+      videoUrl: backvideo,
       type: "video/mp4"
     }
   }
-
- 
     render(){
-      console.dir(videoback)
+   
     return (
       <>
-      
       <div className="container-header">
           <div className="for-video"> 
              <Video className="video" videoUrl = {this.state.videoUrl} type =   {this.state.type}/>
           </div>
       </div>
+
       </>
      
      )

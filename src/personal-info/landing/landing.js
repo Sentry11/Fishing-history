@@ -12,9 +12,6 @@ import icons5 from'../../image/fish-icons/icons5.svg'
 import './landing.scss';
 
 
-
-
-
 const  Landing = ({name, num, img}) => {
 
     return (
@@ -50,7 +47,7 @@ const  Landing = ({name, num, img}) => {
                         style={{ color: mainTheme.tertiary }}>
                         <h6>{name}</h6>
                         <h1> <CountUp duration={num > 50 ? 1: 4 } delay={0} start = {0} end={num} /></h1>
-                        <p> - количество словленой рыбы</p>
+                        <p> - количество словленой рыбы в 2022</p>
 
                     </div>
                 </div>

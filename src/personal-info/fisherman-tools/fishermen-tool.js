@@ -10,7 +10,7 @@ import { mainTheme } from '../../data/theme';
 
 
 
-function FishermanTool(imgRod, imgFeeder, imgHooks) {
+function FishermanTool({imgRod, imgFeeder, imgHooks}) {
 
     return (
 
@@ -22,9 +22,9 @@ function FishermanTool(imgRod, imgFeeder, imgHooks) {
             </div>
                 <section className="content" style = {{background: `${mainTheme.secondary}`}} > 
                     <div className = "cards" >
-                        <FishermanToolsItems img = {img1front} name = 'Удочка'/> 
-                        <FishermanToolsItems img = {img2front} name = 'Снасть'/> 
-                        <FishermanToolsItems img = {img3front} name = 'Крючки'/> 
+                        <FishermanToolsItems img = {img1front} name = 'Удочка' imgback = {imgRod}/> 
+                        <FishermanToolsItems img = {img2front} name = 'Снасть' imgback = {imgFeeder}/> 
+                        <FishermanToolsItems img = {img3front} name = 'Крючки' imgback = {imgHooks}/> 
 
                      </div> 
                  </section> 

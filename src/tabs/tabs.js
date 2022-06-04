@@ -32,7 +32,7 @@ return(
       // console.log(elements.name, 'and their key= ', key);
       // <Link  to = {`/person/${elements.id}`}>  </Link>
            
-          <TabsItem key = {key}  name = {elements.name} desc = {elements.about} personid = {elements.id}/> 
+          <TabsItem key = {key}  name = {elements.name} photo = {elements.personalPhotoTabs} desc = {elements.about} personid = {elements.id}/> 
         )
      
    })} 

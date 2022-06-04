@@ -7,7 +7,7 @@ const TabsItem = ({name, desc, photo,personid}) => {
             <div className="grid_tab">  
             <div className="grid_tab__item_tab">      
             <div className="card_tab">
-               <img className='card_tab__img_tab' src = "https://images.pexels.com/photos/294674/pexels-photo-294674.jpeg?cs=srgb&dl=pexels-lumn-294674.jpg&fm=jpg" alt = 'alt'/>
+               <img className='card_tab__img_tab' src = {photo} alt = 'alt'/>
                <div className="card_tab__content_tab">
                      <h1 className='card_tab__header_tab'> {name}</h1>
                      <p className='card_tab__text_tab'> | {desc} | </p>

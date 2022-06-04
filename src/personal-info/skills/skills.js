@@ -17,13 +17,14 @@ export const skillsData = [
     'По моєму клює'
 ]
 
-const Skills = ({skills}) => {
-    // console.log(skills)
-    const skillBoxStyle = {
-        backgroundColor: mainTheme.secondary,
-        boxShadow: `0px 0px 30px ${mainTheme.primary30}`
-    }
 
+const randBgColor = () => {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    return '#' + randomColor;
+}
+
+const Skills = ({skills}) => {
+ 
     return (
 
         <div id ="skills"className="skills" style={{backgroundColor: mainTheme.secondary}}>
@@ -43,10 +44,10 @@ const Skills = ({skills}) => {
                     >
                       
                         {skills.map((skill, id) => (
-                            <div className="skill--box" key={id} style={skillBoxStyle}>
+                            <div className="skill--box" key={id} style={{boxShadow: `0px 0px 30px ${randBgColor()}`, backgroundColor: mainTheme.secondary}}>
                                 <img src={skill.img} alt={skill} />
                                 <h3 style={{color: mainTheme.tertiary}}>
-                                    {skill.skill}
+                                    {skill.name}
                                 </h3>
                             </div>
                         ))}

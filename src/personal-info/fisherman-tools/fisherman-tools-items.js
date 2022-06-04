@@ -21,7 +21,7 @@ const FishermanToolsItems = ({img, name, imgback }) => {
         <div className="card__description">
        
         <img 
-        style={{ position: 'absolute',top: '0px', left: '0px', right: '0px',bottom: '0px', width:'100%', height:'100%'}} 
+        style={{ position: 'absolute',top: '0px', left: '0px', right: '0px',bottom: '0px', width:'100%', height:'100%', objectFit:'cover'}} 
         alt = '' 
         src= {imgback}/>
          </div>
