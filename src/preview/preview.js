@@ -12,7 +12,6 @@ const Video = (props) => {
 
 
 class Preview extends Component {
-  // http://thenewcode.com/assets/videos/fashion.mp4
   constructor(props){
     super(props);
     this.state ={
@@ -36,5 +35,4 @@ class Preview extends Component {
     }
 }
 
-console.log('Zalupko');
 export default Preview;

@@ -103,14 +103,15 @@ $letterStagger: 0.1s;
     }
 
     &-heading {
-      $fontSize: 60px;
-      
-      display: flex;
+
       margin-bottom: 180px;
-      font-size: $fontSize;
-      letter-spacing: 30px;
+      font-size: 54px;
+      letter-spacing: 2px;
+      transform: translateY(60px);
       
+      @include subTextsActiveSlide;
       span {
+        $fontSize: 60px;
         display: block;
         opacity: 0;
         transform: translateY($fontSize*-1);

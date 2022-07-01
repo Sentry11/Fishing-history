@@ -45,8 +45,9 @@ class Slider extends Component {
  
   render() {
     let classNames = require('classnames');
+
+
     const { activeSlide, prevSlide, sliderReady } = this.state;
-    // var num = Math.floor(Math.random() * (1000 + .999999))// pseudo key for avoid stupid warning. i not need this component to do something
     return (
       <div className={classNames('slider', { 's--ready': sliderReady })}>
         <div className="slider__slides">
@@ -59,7 +60,7 @@ class Slider extends Component {
               <div className="slider__slide-content">
                 <h3 className="slider__slide-subheading">{slide.country || slide.city}</h3>
                 <h2 className="slider__slide-heading">
-                  {slide.city.split('').map(l => <span key = { uuidv4()} >{l}</span>)}
+                  {/* {slide.city.split('').map(l => <span key = { uuidv4()} >{l}</span>)} */slide.city}
                 </h2>
               </div>
               <div className="slider__slide-parts">
