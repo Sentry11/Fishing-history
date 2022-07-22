@@ -7,7 +7,7 @@ import TabsItem from './tabs-item';
 
 import './tabs.scss'
 
-const Line = () => {
+export const Line = () => {
   return(
         <div className="line-styling">
             <div className="style-circle" style={{backgroundColor: mainTheme.tertiary}}></div>

@@ -3,10 +3,7 @@ import "./header.scss"
 
 
   const Header = () =>  {
-      return (
-     
-     
-      
+      return (  
         <div className="header">
           <div className="header__section">
           <div className="header_item ">
@@ -25,9 +22,7 @@ import "./header.scss"
           </div>
           </div>
         </div>
-
        )
-  
   }
   
   export default Header;

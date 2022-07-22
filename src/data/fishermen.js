@@ -20,7 +20,6 @@ import ilyxafront from './../image/ilyxa/ilyxafront.jpg'
 ////////////////////////////////////////
            //Vados//
  import vadosfront from './../image/vados/vadosfront.jpg'    
- 
  import vadossingle from './../image/vados/vadossingle.jpg'    
 
 ///////////////////////////////////////////////////////////

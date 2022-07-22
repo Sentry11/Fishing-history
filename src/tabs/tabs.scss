@@ -29,8 +29,7 @@
   
   .main_tab{
     display: flex;
-    margin-top: 11%;
-    margin-bottom: 11%;
+
     box-sizing:inherit;
     font-size: 62.5%; // 10px/16px
     align-content:center;
@@ -45,6 +44,8 @@
 
   ////hr
    .line-styling{
+    margin-top: 11%;
+    margin-bottom: 11%;
     position: relative;
     height: fit-content;
     top: 50px;

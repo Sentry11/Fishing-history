@@ -46,7 +46,6 @@ class Slider extends Component {
   render() {
     let classNames = require('classnames');
 
-
     const { activeSlide, prevSlide, sliderReady } = this.state;
     return (
       <div className={classNames('slider', { 's--ready': sliderReady })}>
