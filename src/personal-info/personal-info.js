@@ -25,9 +25,6 @@ const PersonalInfo = () => {
   }, [])
 
 
-   
-
-     console.log(data.singleNum);
     
     return(
        <>
