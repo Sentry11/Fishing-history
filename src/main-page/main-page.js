@@ -12,10 +12,11 @@ const MainPage = () => {
 
 return(
     <>
-        <StartParallax/>
+       
         <Slider slides = {slides}/>
+         <StartParallax/>
         <Tabs/>
-        <Preview/>
+        {/* <Preview/> */}
     </>
 )
 }

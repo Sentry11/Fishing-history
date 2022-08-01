@@ -1,10 +1,7 @@
-
-
-import './skills.scss'
 import Marquee from "react-fast-marquee";
 import { mainTheme } from '../../data/theme';
 
-
+import './skills.scss'
 
 export const skillsData = [
     'Сила',

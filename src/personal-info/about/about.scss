@@ -11,10 +11,10 @@
   transform: translateX(-50%);
   height: 50px;
   width: 85%;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .about .line-styling .style-circle{
@@ -63,6 +63,7 @@
 .about-img {
     margin-top: 40px;
     pointer-events: none;
+    margin-top : 200px
 }
 
 .about-img > img {
